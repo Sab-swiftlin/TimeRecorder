@@ -1,10 +1,3 @@
-//
-//  TimeRecorderTests.swift
-//  TimeRecorderTests
-//
-//  Created by Haruki Saburi on 2020/09/29.
-//
-
 import XCTest
 @testable import TimeRecorder
 

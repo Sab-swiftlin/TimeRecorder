@@ -1,10 +1,3 @@
-//
-//  TimeRecorderUITests.swift
-//  TimeRecorderUITests
-//
-//  Created by Haruki Saburi on 2020/09/29.
-//
-
 import XCTest
 
 class TimeRecorderUITests: XCTestCase {
