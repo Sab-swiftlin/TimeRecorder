@@ -2,8 +2,16 @@ import SwiftUI
 
 struct BottomTabView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            RecorderView()
+                .tabItem {
+                    Text("Clock")
+                }
+            LogListView()
+                .tabItem {
+                    Text("List")
+                }
+        }
     }
 }
 
