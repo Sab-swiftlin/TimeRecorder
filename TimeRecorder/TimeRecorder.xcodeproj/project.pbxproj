@@ -14,6 +14,7 @@
 		6A8BEA112523771D00700D02 /* TimeRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8BEA102523771D00700D02 /* TimeRecorderTests.swift */; };
 		6A8BEA1C2523771D00700D02 /* TimeRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8BEA1B2523771D00700D02 /* TimeRecorderUITests.swift */; };
 		6A8BEA3025237B7200700D02 /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8BEA2F25237B7200700D02 /* RecorderView.swift */; };
+		6A8BEA3525237BD900700D02 /* LogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8BEA3425237BD900700D02 /* LogListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6A8BEA1B2523771D00700D02 /* TimeRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecorderUITests.swift; sourceTree = "<group>"; };
 		6A8BEA1D2523771D00700D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A8BEA2F25237B7200700D02 /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
+		6A8BEA3425237BD900700D02 /* LogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				6A8BE9FE2523771A00700D02 /* TimeRecorderApp.swift */,
 				6A8BEA002523771A00700D02 /* BottomTabView.swift */,
 				6A8BEA2F25237B7200700D02 /* RecorderView.swift */,
+				6A8BEA3425237BD900700D02 /* LogListView.swift */,
 				6A8BEA022523771D00700D02 /* Assets.xcassets */,
 				6A8BEA072523771D00700D02 /* Info.plist */,
 				6A8BEA042523771D00700D02 /* Preview Content */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A8BEA3025237B7200700D02 /* RecorderView.swift in Sources */,
+				6A8BEA3525237BD900700D02 /* LogListView.swift in Sources */,
 				6A8BEA012523771A00700D02 /* BottomTabView.swift in Sources */,
 				6A8BE9FF2523771A00700D02 /* TimeRecorderApp.swift in Sources */,
 			);
