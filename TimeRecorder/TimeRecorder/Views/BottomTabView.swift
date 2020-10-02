@@ -3,7 +3,7 @@ import SwiftUI
 struct BottomTabView: View {
     var body: some View {
         TabView {
-            RecorderView()
+            RecorderView(viewModel: .init())
                 .tabItem {
                     Text("Clock")
                 }

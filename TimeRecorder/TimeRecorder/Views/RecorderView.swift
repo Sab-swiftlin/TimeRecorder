@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct RecorderView: View {
+    @ObservedObject var viewModel: RecorderViewModel
+    
     var body: some View {
         VStack {
             Text("2020/10/01")
@@ -29,14 +31,14 @@ struct RecorderView: View {
             }
             Spacer().frame(width: 0, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             Button(action: {
-                print("Button Tapped")
+                self.viewModel.recordTapped()
             }) {
-                Text("退勤")
+                Text(viewModel.state.actionButtonTitle)
                     .padding(.horizontal, 50)
                     .padding(.vertical, 20)
             }
             .foregroundColor(.white)
-            .background(Color.pink)
+            .background(viewModel.state.actionButtonColor)
         }
     }
 }
@@ -44,8 +46,8 @@ struct RecorderView: View {
 struct RecorderView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            RecorderView()
-            RecorderView()
+            RecorderView(viewModel: .init())
+            RecorderView(viewModel: .init())
                 .previewDevice("iPhone 11")
         }
     }
