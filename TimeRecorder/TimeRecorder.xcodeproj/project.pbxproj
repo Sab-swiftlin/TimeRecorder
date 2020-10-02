@@ -76,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A840DD225275F95008D7051 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A8BEA3425237BD900700D02 /* LogListView.swift */,
+				6A8BEA2F25237B7200700D02 /* RecorderView.swift */,
+				6A8BEA002523771A00700D02 /* BottomTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6A8BE9F22523771A00700D02 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +109,8 @@
 		6A8BE9FD2523771A00700D02 /* TimeRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				6A840DD225275F95008D7051 /* Views */,
 				6A8BE9FE2523771A00700D02 /* TimeRecorderApp.swift */,
-				6A8BEA002523771A00700D02 /* BottomTabView.swift */,
-				6A8BEA2F25237B7200700D02 /* RecorderView.swift */,
-				6A8BEA3425237BD900700D02 /* LogListView.swift */,
 				6A8BEA022523771D00700D02 /* Assets.xcassets */,
 				6A8BEA072523771D00700D02 /* Info.plist */,
 				6A8BEA042523771D00700D02 /* Preview Content */,
